@@ -1,0 +1,67 @@
+body {
+    background-color: #282c34;
+}
+
+.App {
+    text-align: center;
+    font-family: sans-serif; /* Added for better readability */
+    background-color: #282c34;
+
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px; /* Added padding for better spacing */
+    box-sizing: border-box; /* Include padding in element's total width and height */
+  }
+  
+  .App-header img {
+    max-width: 50%; /* Adjust as needed */
+    max-height: 20%; /* Adjust as needed */
+    margin-bottom: -10%; /* Added margin for spacing */
+  }
+  
+  .buttons {
+    margin-top: 20px; /* Added margin for spacing */
+
+    
+  }
+
+  .buttons-b {
+    border-radius: 5% 5% 5% 5%;
+  }
+  
+  .buttons button {
+    background-color: #F16515 ;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  main {
+    padding: 20px; /* Added padding for better spacing */
+  }
+  
+  section {
+    margin: 20px; /* Added margin for spacing */
+    margin-top: 30px;
+
+    p {
+        margin-top: 10px
+    }
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
